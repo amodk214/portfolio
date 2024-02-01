@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/******************header**********************/
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(23, 23, 72);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: lavender;
+    font-size: 1.02rem;
+}
+/********************section**************************/
+.about{
+    width: 100%;
+    padding: 78px 0px; 
+ }
+ .about img{
+     height: 500PX;
+     width: 450px;
+ }
+ .about-text{
+     width: 550px;
+ }
+ .main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+ }
+ .about-text h1{
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+ }
+ .about-text h5{
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+ }
+ span{
+    color: red;
+ }
+ .about-text p{
+    font-size: 18px;
+   line-height: 28px;
+    margin-bottom: 45px;
+    letter-spacing: 1px;
+ }
+
+
+
+
+
+
+/* ****************************footer****************** */
+
+ footer{
+    background-color:#171717;
+}
+.footerContainer{
+    width: 100%;
+    padding-top:10px;
+
+}
+.socialIcon{
+    display: flex;
+    justify-content: center;
+}
+.socialIcon a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px ;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.socialIcon a i{
+   font-size: 2em;
+   color: #000;
+   opacity: 0.9;
+}
+.socialIcon a:hover{
+   background-color: #171717;
+   transition: 0.5s;
+}
+.socialIcon a:hover i{
+  color: #fff;
+  transition: 0.5s;
+}
+.footerNav{
+    max-width: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.footerNav ul li{
+    list-style: none;
+}
+
+.footerNav ul li a{
+   color: #fff;
+   margin: 20px;
+   text-decoration: none;
+   font-size: 1em;
+   opacity: 0.7;
+   transition: 0.5s;
+}
+.footerNav ul li a:hover{
+  opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: #fff;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0 5px;
+
+}
